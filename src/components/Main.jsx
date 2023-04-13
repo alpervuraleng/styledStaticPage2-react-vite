@@ -1,5 +1,13 @@
+import './main.css'
+
 export default function Main() {
     return (
-        <h1>Main Content Goes Here</h1>
+        <div className="mainContainer">
+            <h1 className="mainHeading">Fun facts about React</h1>
+            <ul className="mainList">
+                <li>Fact 1</li>
+                <li>Fact 2</li>
+            </ul>
+        </div>
     );
 }

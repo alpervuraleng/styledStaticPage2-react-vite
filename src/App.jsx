@@ -7,7 +7,6 @@ export default function App() {
     <div>
       <Navbar/>
       <Main/>
-      <p style={{fontSize: 30, fontFamily: "Inter"}}>Test</p>
     </div>
   )
 }
