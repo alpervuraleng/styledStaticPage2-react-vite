@@ -1,5 +1,5 @@
 export default function Navbar() {
     return (
-        <h1>Navbar</h1>
+        <h1>Navbar Goes Here</h1>
     );
 }
