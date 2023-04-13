@@ -3,3 +3,32 @@
 body {
     font-family: Inter, sans-serif;
 }
+
+.mainHeading {
+    color: white
+}
+
+.mainList {
+    color: white;
+    margin-top: 42px;
+    max-width: 400px;
+}
+
+.mainList > li {
+    padding-block: 10px;
+}
+
+.mainList > li::marker {
+    font-size: 1.6rem;
+    color: #61DAFB;
+}
+
+.mainContainer {
+    padding-top: 57px;
+    padding-left: 27px;
+    background-color: #282D35;
+    background-image: url("./assets/react-icon-large.png");
+    background-repeat: no-repeat;
+    background-position: right 75%;
+    height: 100vh
+}

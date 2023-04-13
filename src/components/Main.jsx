@@ -2,12 +2,12 @@ import './main.css'
 
 export default function Main() {
     return (
-        <div className="mainContainer">
+        <main className="mainContainer">
             <h1 className="mainHeading">Fun facts about React</h1>
             <ul className="mainList">
                 <li>Fact 1</li>
-                <li>Fact 2</li>
+                <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
-        </div>
+        </main>
     );
 }
